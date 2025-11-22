@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.calender{
+    background-color: rgb(190, 183, 219);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.day{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d60d0d;
+}
+.date{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.month-year{
+    font-size: 1.5rem;
+    color: #0b5803;
+}
